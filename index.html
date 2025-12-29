@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Demo App</title>
+</head>
+<body>
+  <h1>Hello from S3 Static Website!</h1>
+
+  <button onclick="callAPI()">Click to Call Backend</button>
+
+  <p id="result"></p>
+
+<script>
+async function callAPI() {
+  const response = await fetch("http://13.233.1.50/api");
+  const data = await response.json();
+  document.getElementById("result").innerText = data.message;
+}
+</script>
+
+</body>
+</html>
