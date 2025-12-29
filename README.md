@@ -13,7 +13,7 @@ EC2 reads/writes user files to S3 using IAM role.
 No access keys required.
 
 **Project 1: Static Website on S3 + Backend API on EC2 + IAM Access**
-**Architecture Overview**
+**A. Architecture Overview**
 1. S3 Bucket: Hosts static website (HTML/JS).
 2. EC2 Instance: Backend API (Node.js / Python)
 3. IAM Role: Allows EC2 to read/write data to S3
