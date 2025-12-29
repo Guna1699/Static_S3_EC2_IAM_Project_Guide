@@ -2,7 +2,7 @@
 A website hosted on S3, API running on EC2, and IAM securing backend access.
 
 **Architecture**
-S3 → Static Website (HTML, CSS, JS)./n
+S3 → Static Website (HTML, CSS, JS).
 EC2 → Backend API (Node.js / Python).
 IAM Role on EC2 → Access S3 (upload/download).
 CloudFront (optional).
